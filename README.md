@@ -1,0 +1,1 @@
+# webextension--toggle-debug-mode
