@@ -33,7 +33,7 @@ browser.windows.onFocusChanged.addListener(updateActiveTab);
 updateActiveTab();
 
 function toggleDebug() {
-  parsedUrl.searchParams.set('debug', (currentDebugStatus) ? '0' : '1')
+  (currentDebugStatus) ? parsedUrl.searchParams.delete('debug') : parsedUrl.searchParams.set('debug', '1');
   browser.tabs.update({url: `${parsedUrl}`});
 }
 

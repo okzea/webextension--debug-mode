@@ -1,3 +1,3 @@
 # Toggle Debug Mode
 
-Simple web-extension to toggle debug mode with `debug` parameter (`0/1`).
+Simple web-extension to toggle debug mode by adding or removing `debug=1` parameter.
